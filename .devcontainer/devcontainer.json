@@ -5,7 +5,7 @@
     "8080": {
       "label": "SAPUI5 FLP App",
       "onAutoForward": "openPreview",
-      "url": "http://localhost:8080/webapp/test/flpSandbox.html?sap-ui-xx-viewCache=false#training-display"
+      "url": "http://localhost:8080/test/flpSandbox.html?sap-ui-xx-viewCache=false#training-display"
     }
   },
 
