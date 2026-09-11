@@ -154,7 +154,7 @@ npm start
 ---
 
 For any issue or clarification, please contact the workshop organizers:
-- [Nicolas Boucaud](https://www.linkedin.com/in/nicolas-boucaud-37567083/) / [Nizare Damoumat](https://www.linkedin.com/in/nizare-damoumat/)
+- [Nicolas Boucaud](https://www.linkedin.com/in/nicolas-boucaud-37567083/) / [Fatime Ndiaye](https://www.linkedin.com/in/fatime-ndiaye-4bb4b224b/)
 
 You can also [open an issue](https://github.com/devops-vesi/accessibility_training/issues) for questions or suggestions.
 
