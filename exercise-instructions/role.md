@@ -111,6 +111,35 @@ Learn to manipulate **Roles**:
   - [Web Developer](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 
 ---
+
+### 🧭 Navigating through Landmarks with NVDA
+
+For **Exercise #3**, make sure NVDA is in **Browse Mode**.
+
+Then use:
+
+| Action | NVDA Shortcut |
+|---|---|
+| Navigate to the **next landmark** | `D` |
+| Navigate to the **previous landmark** | `Shift + D` |
+
+NVDA should announce the **role** and, when available, the **accessible name** of each landmark.
+
+For example, you may hear announcements such as:
+
+```text
+Product Header, region
+Product Description, main landmark
+Product Footer, region
+```
+
+> 💡 **Important:** `Tab` and Landmark navigation serve different purposes.
+>
+> `Tab` navigates between **focusable interactive elements**.
+>
+> Landmark navigation allows screen reader users to navigate through the **structure of the page**.
+
+ ---
  
   ### ✅ Landmark Navigation Extension Setup (Exercise 3)
 
