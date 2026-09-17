@@ -112,9 +112,24 @@ Learn to manipulate **Roles**:
 
 ---
 
-### 🧭 Navigating through Landmarks with NVDA
+  ### ✅ Landmark Navigation Extension Setup (Exercise 3)
 
-For **Exercise #3**, make sure NVDA is in **Browse Mode**.
+Once installed:
+
+1. Go to **Preferences / Options** in the extension settings.
+2. Set **“Border and label appearance”** to **“Persistent”**.  
+➔ Keeps landmark borders and labels always visible, even after navigation.  
+✔️ Useful for testing to see exactly which landmark is active.
+3. Check **“Close the pop-up immediately when activating a landmark button”**.  
+➔ Automatically closes the pop-up after selecting a landmark.  
+✔️ Makes testing faster and more efficient.
+
+💡 **Summary:**  
+These settings make landmark navigation testing **easier and quicker** by keeping visual indicators visible and reducing extra steps.
+
+---
+
+### 🧭 Navigating through Landmarks with NVDA (Exercise 3)
 
 Then use:
 
@@ -138,23 +153,6 @@ Product Footer, region
 > `Tab` navigates between **focusable interactive elements**.
 >
 > Landmark navigation allows screen reader users to navigate through the **structure of the page**.
-
- ---
- 
-  ### ✅ Landmark Navigation Extension Setup (Exercise 3)
-
-Once installed:
-
-1. Go to **Preferences / Options** in the extension settings.
-2. Set **“Border and label appearance”** to **“Persistent”**.  
-➔ Keeps landmark borders and labels always visible, even after navigation.  
-✔️ Useful for testing to see exactly which landmark is active.
-3. Check **“Close the pop-up immediately when activating a landmark button”**.  
-➔ Automatically closes the pop-up after selecting a landmark.  
-✔️ Makes testing faster and more efficient.
-
-💡 **Summary:**  
-These settings make landmark navigation testing **easier and quicker** by keeping visual indicators visible and reducing extra steps.
 
 ---
 
