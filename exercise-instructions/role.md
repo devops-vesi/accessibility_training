@@ -131,6 +131,13 @@ These settings make landmark navigation testing **easier and quicker** by keepin
 
 ### 🧭 Navigating through Landmarks with NVDA (Exercise 3)
 
+Before navigating through landmarks, make sure NVDA is in Browse Mode.
+You can switch between Browse Mode and Focus Mode using:
+| Action | NVDA Shortcut |
+|---|---|
+| Navigate to the **next landmark** | `NVDA + Space` |
+
+For better 
 Then use:
 
 | Action | NVDA Shortcut |
