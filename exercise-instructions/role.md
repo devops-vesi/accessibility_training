@@ -139,13 +139,13 @@ You can switch between Browse Mode and Focus Mode using:
 
 > 💡 **Reminder:** The NVDA key is usually Caps Lock, depending on your NVDA configuration.
 
-👁️ Optional: Enable Visual Highlight
-
-You can also enable Visual Highlight in NVDA to get a visual indication of the element or area currently being navigated.
-
-Go to NVDA Preferences → Settings → Vision → Visual Highlight and enable it.
-
-This can be particularly useful during the exercises to see what NVDA is currently focusing or navigating to while listening to the screen reader.
+> 👁️ **Optional - Enable Visual Highlight**
+>
+> If you want some visual feedback while using NVDA, you can enable **Visual Highlight**.
+>
+> Go to **NVDA Preferences → Settings → Vision → Visual Highlight** and enable it.
+>
+> This highlights the element or area currently being navigated, making it easier to understand what NVDA is focusing on while listening to the screen reader.
 
 
 Once in Browse Mode, use:
