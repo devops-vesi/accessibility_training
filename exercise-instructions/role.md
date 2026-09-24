@@ -137,8 +137,18 @@ You can switch between Browse Mode and Focus Mode using:
 |---|---|
 | Navigate to the **next landmark** | `NVDA + Space` |
 
-For better 
-Then use:
+> 💡 **Reminder:** The NVDA key is usually Caps Lock, depending on your NVDA configuration.
+
+👁️ Optional: Enable Visual Highlight
+
+You can also enable Visual Highlight in NVDA to get a visual indication of the element or area currently being navigated.
+
+Go to NVDA Preferences → Settings → Vision → Visual Highlight and enable it.
+
+This can be particularly useful during the exercises to see what NVDA is currently focusing or navigating to while listening to the screen reader.
+
+
+Once in Browse Mode, use:
 
 | Action | NVDA Shortcut |
 |---|---|
@@ -169,6 +179,43 @@ Product Footer, region
 | 2 | Define `ariaHasPopup` | Learn the importance of assigning the **ariaHasPopup** property to buttons that trigger popups, menus, or lists. |
 | 3 | Define Landmarks | Learn how to use **Landmarks** to identify the different sections of a web page clearly and make it easier to navigate using assistive technologies. |
 
+> 💡 **Hint: Understanding `PageAccessibleLandmarkInfo`**
+>
+> Think of landmarks as a **map of your page for screen reader users**.
+>
+> Each property of `PageAccessibleLandmarkInfo` corresponds to a specific area of `sap.m.Page`:
+>
+> ```text
+> Page → rootRole="Region"
+> │      "Product Details"
+> │
+> ├── Header → headerRole="Region"
+> │             "Product Header"
+> │
+> ├── SubHeader → subHeaderRole="Region"
+> │                "Category Description"
+> │
+> ├── Content → contentRole="Main"
+> │              "Product Description"
+> │
+> └── Footer → footerRole="Region"
+>               "Product Footer"
+> ```
+>
+> | Property | Part of `sap.m.Page` | What it tells the screen reader |
+> |---|---|---|
+> | `rootRole` | Entire `Page` | "This page is an identifiable region" |
+> | `headerRole` | `customHeader` / header | "This area is a region" |
+> | `subHeaderRole` | `subHeader` | "This area is a region" |
+> | `contentRole` | `content` | "This is the main content" |
+> | `footerRole` | `footer` | "This area is a region" |
+> | `xxxLabel` | Accessible name of the area | Gives the landmark a meaningful name that can be announced by the screen reader |
+>
+> Without landmarks, a screen reader can still read the individual elements, but it has less information about how the page is structured.
+>
+> By defining roles such as `Main` or `Region` and giving them meaningful labels, you identify the important areas of the page. Screen reader users can then understand the page structure and navigate directly between these areas instead of going through every single control.
+>
+> ⚠️ **Remember:** More landmarks don't necessarily mean better accessibility. Use them to identify meaningful sections of the page.
 ---
 
 [Go to next part: #2 Accessible Name](accessible_name.md)
